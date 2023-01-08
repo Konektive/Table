@@ -1,0 +1,87 @@
+.wrap{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(90deg, #4c5c55, #4d5e55, #506456, #576b55, #677451, #7d7c4c, #9a814a, #ba8450, #d6845d, #ed836e, #fa827c, #ff8282);
+}
+
+.wrap input{
+  margin: 5px;
+  width: 10%;
+  text-align: center;
+}
+
+.controls{
+  justify-self: end;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  text-align: center;
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr{
+  background-color: #4e4e4e;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+}
+
+table th,table td{
+  padding: 12px 15px;
+}
+
+table tbody tr{
+  cursor: pointer;
+}
+
+
+button{
+  background-color: rgb(34, 34, 34);
+  cursor: pointer;
+  width: 3rem;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.modal {
+  width: 30rem;
+  height: 20rem;
+  background: linear-gradient(240deg, #2a007d, #3814ff);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  text-align: center;
+  border-radius: 20px;
+}
+.modal h1{
+  text-transform: uppercase;
+}
+.modal p {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2rem;
+}
+.modal button{
+  color: rgb(255, 255, 255);
+  height: 3rem;
+  line-height: 3rem;
+  width: 5rem;
+  background-color: chocolate;
+}
+.modal button:hover{
+background-color: rgb(44, 44, 44);
+color: rgba(210, 105, 30, 0.747)
+}
+
